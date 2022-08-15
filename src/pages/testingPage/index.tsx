@@ -7,7 +7,7 @@ const Album: NextPage = () => {
     <div className=" flex h-auto min-h-screen flex-col bg-indigo-900 ">
       <Navbar />
       <h1 className=" self-center text-center">Header</h1>
-      <div className="mt-80 ">
+      <div className="my-auto py-10 ">
         <div
           className="mx-auto max-w-3xl rounded-md bg-slate-900 
           bg-opacity-40 py-8 text-center shadow-inner drop-shadow-lg"
