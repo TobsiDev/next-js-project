@@ -13,7 +13,7 @@ const Home: NextPage = () => {
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
-      <Link href="/album">
+      <Link href="/testingPage">
         <a>Page</a>
       </Link>
 
