@@ -1,21 +1,22 @@
 import { NextPage } from "next";
-import Heade from "./Heade";
+import Footer from "../../components/Footer";
+import Navbar from "../../components/Navbar";
 
 const Album: NextPage = () => {
   return (
-    <div>
-      <Heade />
-      <div className=" h-screen bg-blue-900 ">
-        <h1 className=" self-center text-center">Header</h1>
-        <div className="mt-80 ">
-          <div className="mx-auto max-w-3xl rounded-md bg-slate-900 py-8 text-center">
-            <h2>
-              Site is under development. (TODO: Make this look like a program
-              window)
-            </h2>
-          </div>
+    <div className=" flex h-auto min-h-screen flex-col bg-indigo-900 ">
+      <Navbar />
+      <h1 className=" self-center text-center">Header</h1>
+      <div className="mt-80 ">
+        <div
+          className="mx-auto max-w-3xl rounded-md bg-slate-900 
+          bg-opacity-40 py-8 text-center shadow-inner drop-shadow-lg"
+        >
+          <h2 className=" text-opacity-0">Site is under development.</h2>
         </div>
       </div>
+      <br />
+      <Footer />
     </div>
   );
 };
